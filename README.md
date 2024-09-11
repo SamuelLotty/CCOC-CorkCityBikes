@@ -53,6 +53,7 @@ Damage 1	Char
 
 
 Testing 1
+
 do {
 System.out.println("Is the bike ready to be locked within the bank?");
 switch (Locked) {
@@ -66,7 +67,9 @@ break;
 }
 }
 } while (Locked =='n');
+
 Results 1
+
 Is the bike ready to be locked within the bank?
 n
 Please place bike into bank where it can be locked!
@@ -79,6 +82,7 @@ The bike is now locking
 
 
 Testing 2
+
 System.out.println("Is there any damage done to the bike?:\t");
 Damage1 = sc.next().charAt(0);
 switch (Damage1) {
@@ -95,7 +99,9 @@ case 'n' : {
 System.out.println("Thank you for using Cork City Bikes!");
 }
 }
+
 Results 2
+
 Is there any damage done to the bike?:	
 y
 Enter the number of the bike that is damaged:	
@@ -105,6 +111,7 @@ broken wheel
 This bike is now permanently locked!
 
 Testing 3
+
 System.out.print("Would you like to view the maintenance log?:\t");
 Log = sc.next().charAt(0);
 do {
@@ -131,6 +138,7 @@ SkillsDemo3.printFile("MaintenanceLog.txt");
 }
 
 Results 3
+
 Would you like to view the maintenance log?:	y
 Enter Username:	maintene
 Enter Username:	That username is not valid!
